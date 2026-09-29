@@ -1,0 +1,63 @@
+# Build output
+build/
+out/
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.7z
+*.rar
+mcmodsrepo/
+src/generated/
+
+# Gradle cache
+.gradle/
+
+# Minecraft run directories and generated game data
+run/
+run-data/
+logs/
+crash-reports/
+saves/
+config/
+mods/
+/rewind/
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.metadata/
+*.launch
+eclipse/
+
+# Local OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local Codex / agent workspace files
+.agents/
+.codex/
+
+# Forge MDK template or local scratch files that are not mod source
+README.txt
+CREDITS.txt
+changelog.txt
+forge*changelog.txt
+test.txt
+
+# Keep Gradle wrapper files needed to build the project
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
